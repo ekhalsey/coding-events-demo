@@ -21,7 +21,7 @@ import javax.validation.Valid;
 public class EventCategoryController {
 
     @Autowired
-    private EventCategoryRepository eventCategoryRepository;
+    public EventCategoryRepository eventCategoryRepository;
 
     @GetMapping
     public String displayAllCategories(Model model) {
